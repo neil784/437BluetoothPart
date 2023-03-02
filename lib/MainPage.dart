@@ -26,7 +26,7 @@ class _MainPage extends State<MainPage> {
         .then((List<BluetoothDevice> bondedDevices) {
       setState(() {
         for(BluetoothDevice device in bondedDevices){
-          if (device.name == "raspberrypi-joku"){
+          if (device.name == "vrush's-raspberrypi"){
             _device = device;
           }
         }
